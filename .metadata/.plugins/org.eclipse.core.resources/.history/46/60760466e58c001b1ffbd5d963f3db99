@@ -1,0 +1,25 @@
+import { Injectable } from '@angular/core';
+import { Observable, of } from 'rxjs';
+
+
+import { Part } from './part';
+import { PARTS } from './parts';
+import parts from './parts-db.json';
+
+@Injectable({
+  providedIn: 'root'
+})
+export class PartsService {
+
+
+  constructor() {}
+
+
+
+  getParts(): Observable<Part[]> {
+    const parts = of(PARTS);
+    return parts;
+  }
+
+
+}

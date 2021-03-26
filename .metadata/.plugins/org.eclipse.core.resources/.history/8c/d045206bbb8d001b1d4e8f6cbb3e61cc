@@ -1,0 +1,18 @@
+module.exports = app => {
+	const parts = require("../controllers/part.controller.js");
+
+	var router = require("express").Router();
+
+	router.post("/", parts.create);
+
+	router.get("/", parts.findAll);
+
+	router.get("/:partNumber", parts.findOne);
+
+	router.put("/:partNumber", parts.update);
+
+
+
+
+	app.use('/api/parts', router);
+};

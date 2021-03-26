@@ -1,0 +1,24 @@
+<h1>MACHINE PARTS INVENTORY</h1>
+
+<div class="container-fluid">
+
+    <div class="card float-left my-15" *ngFor="let part of parts">
+       
+        <div class="card-body">
+            <h3 class="card-title">{{ part.id }} | {{ part.givenPartName }}</h3>
+            <h5 class="card-subtitle mb-2 text-muted">"{{ part.supplierPartName }}"</h5>            
+            
+            <figure class="figure">
+                <img src="https://via.placeholder.com/200" class="figure-img img-fluid" alt="{{ part.givenPartName }}">
+            </figure>
+            <div class="card-body">
+                <h4 class="card-text">En stock: {{ part.currentQuantity }} / {{ part.minimumQuantityRequired }}</h4>
+                <button class="btn btn-primary" onClick="add(part)" style="width: 50px">+</button>
+                <button class="btn btn-danger" (click)="substract(part)" style="width: 50px">-</button>
+            </div>
+        </div>
+    </div>
+
+
+
+</div>

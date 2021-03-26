@@ -1,0 +1,19 @@
+import { Component, OnInit } from '@angular/core';
+import { PARTS } from '../parts';
+
+@Component({
+  selector: 'app-machine-parts',
+  templateUrl: './machine-parts.component.html',
+  styleUrls: ['./machine-parts.component.css']
+})
+export class MachinePartsComponent implements OnInit {
+
+  parts = PARTS;
+
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+}

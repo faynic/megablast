@@ -1,0 +1,4 @@
+export interface Omax {
+ id: number;
+ name: string;
+}

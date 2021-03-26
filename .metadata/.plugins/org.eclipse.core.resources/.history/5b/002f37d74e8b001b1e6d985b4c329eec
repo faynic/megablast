@@ -1,0 +1,20 @@
+import { Omax } from './omax';
+
+export const OMAXS: Omax[] = [
+ {
+ id: 1,
+    name: 'OmaxOne',
+    currentRuntime: 86400,
+    operator: 'Yohan C.',
+    tubeRuntime: 15,
+    headRuntime: 103
+  },
+  {
+ id: 2,
+    name: 'OmaxTwo',
+    currentRuntime: 86400,
+    operator: 'Yohan C.',
+    tubeRuntime: 15,
+    headRuntime: 103
+  },
+]

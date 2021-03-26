@@ -1,0 +1,63 @@
+const db = require("../models");
+const Part = db.parts;
+
+//Create
+exports.create = (req, res) => {
+	if (!req.body.partnumber) {
+		res.status(400).send({message: "Content can not be empty!" });
+		return;
+	}
+
+	const part = new Part({
+		partNumber: req.body.partnumber,
+		givenPartName: req.body.givenPartName
+
+	});
+
+	part
+		.save(part)
+		.then(data => {
+			res.send(data);
+		})
+		.catch(err => {
+			res.status(500).send({
+				message:
+					err.message || "Error occured."
+			});
+		});
+
+
+};
+
+//Retrieve all
+exports.findAll = (req, res) => {
+
+
+};
+
+//Find
+exports.findOne = (red, res) => {
+
+	const partNumber = req.params.partNumber;
+
+	Part.findById
+
+};
+
+//Update
+exports.update = (req, res) => {
+
+};
+
+//Delete one
+exports.delete = (req, res) => {
+
+};
+
+exports.deleteAll = (req, res) => {
+
+};
+
+exports.findAllPublished = (req, res) => {
+
+}

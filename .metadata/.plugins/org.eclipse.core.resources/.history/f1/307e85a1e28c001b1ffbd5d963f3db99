@@ -1,0 +1,17 @@
+import { Injectable } from '@angular/core';
+import { Part } from './part';
+import { PARTS } from './parts';
+
+@Injectable({
+  providedIn: 'root'
+})
+export class PartsService {
+
+
+  constructor() {}
+
+
+  getParts(): Part[] {
+    return PARTS;
+  }
+}

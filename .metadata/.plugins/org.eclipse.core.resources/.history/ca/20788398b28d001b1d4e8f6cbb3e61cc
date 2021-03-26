@@ -1,0 +1,18 @@
+module.exports = mongoose => {
+	const Omax = mongoose.model(
+		"Omax",
+		mongoose.Schema(
+			{
+				id: Number,
+ 				name: String,
+ 				operator: String,
+ 				currentRuntime: Number,
+ 				isActive: Boolean,
+ 				tubeRuntime: Number,
+ 				headRuntime: Number,
+			}
+		)
+	);
+
+	return Omax;
+}

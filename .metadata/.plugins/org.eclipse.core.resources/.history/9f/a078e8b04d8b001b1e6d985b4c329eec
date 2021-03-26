@@ -1,0 +1,32 @@
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-shop-floor-view',
+  templateUrl: './shop-floor-view.component.html',
+  styleUrls: ['./shop-floor-view.component.css']
+})
+export class ShopFloorViewComponent implements OnInit {
+
+  omax: [ 
+    {
+    name: 'OmaxOne',
+    currentRuntime: 86400,
+    operator: 'Yohan C.',
+    tubeRuntime: 15,
+    headRuntime: 103
+  },
+  {
+    name: 'OmaxTwo',
+    currentRuntime: 86400,
+    operator: 'Yohan C.',
+    tubeRuntime: 15,
+    headRuntime: 103
+  },
+]
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+}

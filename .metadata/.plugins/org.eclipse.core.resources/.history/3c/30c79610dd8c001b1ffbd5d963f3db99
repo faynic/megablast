@@ -1,0 +1,15 @@
+import { Part } from './part';
+
+export const PARTS: Part[] = [
+    {
+    id: 308107,
+    supplier: 'Omax',
+    supplierPartName: 'Backup Ring Assy',
+    givenPartName: 'Graphite',
+    currentQuantity: 3,
+    minimumQquantityRequired: 5,
+    maximumQuantity: 5,
+    }
+
+
+];

@@ -1,0 +1,30 @@
+import { Injectable } from '@angular/core';
+import { Observable, of } from 'rxjs';
+import { HttpClient } from '@angular/common/http';
+
+
+import { Part } from './part';
+import { PARTS } from './parts';
+import partsDb from 'app/parts-db.json';
+
+
+const localUrl = 'parts-db.json';
+@Injectable({
+  providedIn: 'root'
+})
+export class PartsService {
+
+
+  constructor(private http: HttpClient) {}
+
+  getPart() {
+    return this.http.get(localUrl);
+  }
+
+  getParts(): Observable<Part[]> {
+    const parts = of(PARTS);
+    return parts;
+  }
+
+
+}

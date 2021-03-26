@@ -1,0 +1,8 @@
+export interface Omax {
+ id: number;
+ name: string;
+ operator: string;
+ currentRuntime: number;
+ tubeRuntime: number;
+ headRuntime: number;
+}

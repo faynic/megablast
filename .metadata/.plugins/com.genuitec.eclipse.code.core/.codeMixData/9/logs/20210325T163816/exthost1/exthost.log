@@ -1,0 +1,365 @@
+[2021-03-25 16:38:19.453] [exthost] [info] extension host started
+[2021-03-25 16:38:19.518] [exthost] [info] ExtensionService#_doActivateExtension HookyQR.beautify {"startup":true,"extensionId":{"value":"HookyQR.beautify","_lower":"hookyqr.beautify"},"activationEvent":"*"}
+[2021-03-25 16:38:19.519] [exthost] [info] ExtensionService#loadCommonJSModule file:///c:/Users/olila/.p2/pool/plugins/pack.core.win_3.6.0.202007171759/HookyQR.beautify-1.4.11/extension
+[2021-03-25 16:38:20.137] [exthost] [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense {"startup":true,"extensionId":{"value":"christian-kohler.path-intellisense","_lower":"christian-kohler.path-intellisense"},"activationEvent":"*"}
+[2021-03-25 16:38:20.137] [exthost] [info] ExtensionService#loadCommonJSModule file:///c:/Users/olila/.p2/pool/plugins/pack.core.win_3.6.0.202007171759/christian-kohler.path-intellisense-1.4.2/out/src/extension
+[2021-03-25 16:38:20.493] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":true,"extensionId":{"value":"dbaeumer.vscode-eslint","_lower":"dbaeumer.vscode-eslint"},"activationEvent":"*"}
+[2021-03-25 16:38:20.493] [exthost] [info] ExtensionService#loadCommonJSModule file:///c:/Users/olila/.p2/pool/plugins/pack.core.win_3.6.0.202007171759/dbaeumer.vscode-eslint-1.9.0/client/out/extension
+[2021-03-25 16:38:20.535] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-03-25 16:38:20.535] [exthost] [info] ExtensionService#loadCommonJSModule file:///c:/Users/olila/.p2/pool/plugins/com.genuitec.eclipse.code.engine.app.win32.x86_64_3.6.0.202002212104/engine/resources/app/extensions/debug-auto-launch/dist/extension
+[2021-03-25 16:38:20.599] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2021-03-25 16:38:20.600] [exthost] [info] ExtensionService#loadCommonJSModule file:///c:/Users/olila/.p2/pool/plugins/com.genuitec.eclipse.code.engine.app.win32.x86_64_3.6.0.202002212104/engine/resources/app/extensions/emmet/dist/extension
+[2021-03-25 16:38:20.707] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag {"startup":true,"extensionId":{"value":"formulahendry.auto-close-tag","_lower":"formulahendry.auto-close-tag"},"activationEvent":"*"}
+[2021-03-25 16:38:20.707] [exthost] [info] ExtensionService#loadCommonJSModule file:///c:/Users/olila/.p2/pool/plugins/pack.core.win_3.6.0.202007171759/formulahendry.auto-close-tag-0.5.6/out/src/extension
+[2021-03-25 16:38:20.730] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":true,"extensionId":{"value":"vscode.npm","_lower":"vscode.npm"},"activationEvent":"workspaceContains:package.json"}
+[2021-03-25 16:38:20.730] [exthost] [info] ExtensionService#loadCommonJSModule file:///c:/Users/olila/.p2/pool/plugins/com.genuitec.eclipse.code.engine.app.win32.x86_64_3.6.0.202002212104/engine/resources/app/extensions/npm/dist/main
+[2021-03-25 16:38:20.800] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"extensionId":{"value":"vscode.extension-editing","_lower":"vscode.extension-editing"},"activationEvent":"onLanguage:markdown"}
+[2021-03-25 16:38:20.800] [exthost] [info] ExtensionService#loadCommonJSModule file:///c:/Users/olila/.p2/pool/plugins/com.genuitec.eclipse.code.engine.app.win32.x86_64_3.6.0.202002212104/engine/resources/app/extensions/extension-editing/dist/extension
+[2021-03-25 16:38:20.887] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-language-features {"startup":false,"extensionId":{"value":"vscode.markdown-language-features","_lower":"vscode.markdown-language-features"},"activationEvent":"onLanguage:markdown"}
+[2021-03-25 16:38:20.887] [exthost] [info] ExtensionService#loadCommonJSModule file:///c:/Users/olila/.p2/pool/plugins/com.genuitec.eclipse.code.engine.app.win32.x86_64_3.6.0.202002212104/engine/resources/app/extensions/markdown-language-features/dist/extension
+[2021-03-25 16:38:20.946] [exthost] [info] ExtensionService#_doActivateExtension vscode.grunt {"startup":false,"extensionId":{"value":"vscode.grunt","_lower":"vscode.grunt"},"activationEvent":"onCommand:workbench.action.tasks.runTask"}
+[2021-03-25 16:38:20.946] [exthost] [info] ExtensionService#loadCommonJSModule file:///c:/Users/olila/.p2/pool/plugins/com.genuitec.eclipse.code.engine.app.win32.x86_64_3.6.0.202002212104/engine/resources/app/extensions/grunt/dist/main
+[2021-03-25 16:38:20.971] [exthost] [info] ExtensionService#_doActivateExtension vscode.gulp {"startup":false,"extensionId":{"value":"vscode.gulp","_lower":"vscode.gulp"},"activationEvent":"onCommand:workbench.action.tasks.runTask"}
+[2021-03-25 16:38:20.971] [exthost] [info] ExtensionService#loadCommonJSModule file:///c:/Users/olila/.p2/pool/plugins/com.genuitec.eclipse.code.engine.app.win32.x86_64_3.6.0.202002212104/engine/resources/app/extensions/gulp/dist/main
+[2021-03-25 16:38:20.996] [exthost] [info] ExtensionService#_doActivateExtension vscode.jake {"startup":false,"extensionId":{"value":"vscode.jake","_lower":"vscode.jake"},"activationEvent":"onCommand:workbench.action.tasks.runTask"}
+[2021-03-25 16:38:20.997] [exthost] [info] ExtensionService#loadCommonJSModule file:///c:/Users/olila/.p2/pool/plugins/com.genuitec.eclipse.code.engine.app.win32.x86_64_3.6.0.202002212104/engine/resources/app/extensions/jake/dist/main
+[2021-03-25 16:38:21.025] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onCommand:workbench.action.tasks.runTask"}
+[2021-03-25 16:38:21.025] [exthost] [info] ExtensionService#loadCommonJSModule file:///c:/Users/olila/.p2/pool/plugins/com.genuitec.eclipse.code.engine.app.win32.x86_64_3.6.0.202002212104/engine/resources/app/extensions/typescript-language-features/dist/extension
+[2021-03-25 16:38:21.258] [exthost] [info] eager extensions activated
+[2021-03-25 16:39:14.354] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"extensionId":{"value":"vscode.configuration-editing","_lower":"vscode.configuration-editing"},"activationEvent":"onLanguage:json"}
+[2021-03-25 16:39:14.354] [exthost] [info] ExtensionService#loadCommonJSModule file:///c:/Users/olila/.p2/pool/plugins/com.genuitec.eclipse.code.engine.app.win32.x86_64_3.6.0.202002212104/engine/resources/app/extensions/configuration-editing/dist/extension
+[2021-03-25 16:39:14.390] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"extensionId":{"value":"vscode.json-language-features","_lower":"vscode.json-language-features"},"activationEvent":"onLanguage:json"}
+[2021-03-25 16:39:14.390] [exthost] [info] ExtensionService#loadCommonJSModule file:///c:/Users/olila/.p2/pool/plugins/com.genuitec.eclipse.code.engine.app.win32.x86_64_3.6.0.202002212104/engine/resources/app/extensions/json-language-features/client/dist/jsonMain
+[2021-03-25 16:40:00.997] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.vscode-typescript-tslint-plugin {"startup":false,"extensionId":{"value":"ms-vscode.vscode-typescript-tslint-plugin","_lower":"ms-vscode.vscode-typescript-tslint-plugin"},"activationEvent":"onLanguage:javascript"}
+[2021-03-25 16:40:00.998] [exthost] [info] ExtensionService#loadCommonJSModule file:///c:/Users/olila/.p2/pool/plugins/pack.core.win_3.6.0.202007171759/ms-vscode.vscode-typescript-tslint-plugin-1.2.2/out/index.js
+[2021-03-25 16:40:09.425] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2021-03-25 16:40:09.425] [exthost] [error] Error: <syntax> TypeScript Server Error (3.9.2)
+Debug Failure. False expression: Expected line to be non-zero
+Error: Debug Failure. False expression: Expected line to be non-zero
+    at failIfInvalidLocation (tsserver.js:142404:22)
+    at ScriptInfo.positionToLineOffset (tsserver.js:142377:17)
+    at toProtocolTextSpan (tsserver.js:149586:35)
+    at tsserver.js:149116:68
+    at Array.map (<anonymous>)
+    at IOSession.Session.toLocationNavigationTree (tsserver.js:149116:39)
+    at IOSession.Session.getNavigationTree (tsserver.js:149127:32)
+    at Session.handlers.ts.createMapFromTemplate._a.<computed> (tsserver.js:147970:61)
+    at tsserver.js:149512:88
+    at IOSession.Session.executeWithRequestId (tsserver.js:149503:28)
+    at IOSession.Session.executeCommand (tsserver.js:149512:33)
+    at IOSession.Session.onMessage (tsserver.js:149536:35)
+    at Interface.<anonymous> (tsserver.js:150852:27)
+    at Interface.emit (events.js:200:13)
+    at Interface._onLine (readline.js:314:10)
+    at Interface._normalWrite (readline.js:459:12)
+    at Socket.ondata (readline.js:170:10)
+    at Socket.emit (events.js:200:13)
+    at addChunk (_stream_readable.js:294:12)
+    at readableAddChunk (_stream_readable.js:275:11)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+	at Function.create (c:\Users\olila\.p2\pool\plugins\com.genuitec.eclipse.code.engine.app.win32.x86_64_3.6.0.202002212104\engine\resources\app\extensions\typescript-language-features\dist\extension.js:53:63734)
+	at h.dispatchResponse (c:\Users\olila\.p2\pool\plugins\com.genuitec.eclipse.code.engine.app.win32.x86_64_3.6.0.202002212104\engine\resources\app\extensions\typescript-language-features\dist\extension.js:53:56672)
+	at h.dispatchMessage (c:\Users\olila\.p2\pool\plugins\com.genuitec.eclipse.code.engine.app.win32.x86_64_3.6.0.202002212104\engine\resources\app\extensions\typescript-language-features\dist\extension.js:53:55570)
+	at c:\Users\olila\.p2\pool\plugins\com.genuitec.eclipse.code.engine.app.win32.x86_64_3.6.0.202002212104\engine\resources\app\extensions\typescript-language-features\dist\extension.js:53:55046
+	at Emitter.fire (c:\Users\olila\.p2\pool\plugins\com.genuitec.eclipse.code.engine.app.win32.x86_64_3.6.0.202002212104\engine\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:3713:38)
+	at t.Reader.onLengthData (c:\Users\olila\.p2\pool\plugins\com.genuitec.eclipse.code.engine.app.win32.x86_64_3.6.0.202002212104\engine\resources\app\extensions\typescript-language-features\dist\extension.js:53:61948)
+	at Socket.<anonymous> (c:\Users\olila\.p2\pool\plugins\com.genuitec.eclipse.code.engine.app.win32.x86_64_3.6.0.202002212104\engine\resources\app\extensions\typescript-language-features\dist\extension.js:53:61596)
+	at Socket.emit (events.js:200:13)
+	at addChunk (_stream_readable.js:294:12)
+	at readableAddChunk (_stream_readable.js:275:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2021-03-25 17:14:01.163] [exthost] [info] ExtensionService#_doActivateExtension Angular.ng-template {"startup":false,"extensionId":{"value":"Angular.ng-template","_lower":"angular.ng-template"},"activationEvent":"onLanguage:html"}
+[2021-03-25 17:14:01.164] [exthost] [info] ExtensionService#loadCommonJSModule file:///c:/Users/olila/.p2/pool/plugins/pack.angular.win_3.6.0.202007171759/Angular.ng-template-0.1000.2-cm/client
+[2021-03-25 17:14:01.744] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"extensionId":{"value":"vscode.html-language-features","_lower":"vscode.html-language-features"},"activationEvent":"onLanguage:html"}
+[2021-03-25 17:14:01.744] [exthost] [info] ExtensionService#loadCommonJSModule file:///c:/Users/olila/.p2/pool/plugins/com.genuitec.eclipse.code.engine.app.win32.x86_64_3.6.0.202002212104/engine/resources/app/extensions/html-language-features/client/dist/htmlMain
+[2021-03-25 17:14:01.763] [exthost] [info] ExtensionService#_doActivateExtension mkaufman.HTMLHint {"startup":false,"extensionId":{"value":"mkaufman.HTMLHint","_lower":"mkaufman.htmlhint"},"activationEvent":"onLanguage:html"}
+[2021-03-25 17:14:01.763] [exthost] [info] ExtensionService#loadCommonJSModule file:///c:/Users/olila/.p2/pool/plugins/pack.core.win_3.6.0.202007171759/mkaufman.HTMLHint-0.6.0/out/extension
+[2021-03-25 17:36:33.905] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2021-03-25 17:36:33.909] [exthost] [error] Error: <semantic> TypeScript Server Error (3.9.2)
+Debug Failure. False expression.
+Error: Debug Failure. False expression.
+    at Object.first (tsserver.js:1023:18)
+    at Object.getImportCompletionAction (tsserver.js:129669:38)
+    at getCompletionEntryCodeActionsAndSourceDisplay (tsserver.js:112507:33)
+    at Object.getCompletionEntryDetails (tsserver.js:112471:30)
+    at Proxy.getCompletionEntryDetails (tsserver.js:138863:35)
+    at tsserver.js:148965:57
+    at Object.mapDefined (tsserver.js:562:30)
+    at IOSession.Session.getCompletionEntryDetails (tsserver.js:148963:33)
+    at Session.handlers.ts.createMapFromTemplate._a.<computed> (tsserver.js:147881:61)
+    at tsserver.js:149512:88
+    at IOSession.Session.executeWithRequestId (tsserver.js:149503:28)
+    at IOSession.Session.executeCommand (tsserver.js:149512:33)
+    at IOSession.Session.onMessage (tsserver.js:149536:35)
+    at Interface.<anonymous> (tsserver.js:150852:27)
+    at Interface.emit (events.js:200:13)
+    at Interface._onLine (readline.js:314:10)
+    at Interface._normalWrite (readline.js:459:12)
+    at Socket.ondata (readline.js:170:10)
+    at Socket.emit (events.js:200:13)
+    at addChunk (_stream_readable.js:294:12)
+    at readableAddChunk (_stream_readable.js:275:11)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+	at Function.create (c:\Users\olila\.p2\pool\plugins\com.genuitec.eclipse.code.engine.app.win32.x86_64_3.6.0.202002212104\engine\resources\app\extensions\typescript-language-features\dist\extension.js:53:63734)
+	at h.dispatchResponse (c:\Users\olila\.p2\pool\plugins\com.genuitec.eclipse.code.engine.app.win32.x86_64_3.6.0.202002212104\engine\resources\app\extensions\typescript-language-features\dist\extension.js:53:56672)
+	at h.dispatchMessage (c:\Users\olila\.p2\pool\plugins\com.genuitec.eclipse.code.engine.app.win32.x86_64_3.6.0.202002212104\engine\resources\app\extensions\typescript-language-features\dist\extension.js:53:55570)
+	at c:\Users\olila\.p2\pool\plugins\com.genuitec.eclipse.code.engine.app.win32.x86_64_3.6.0.202002212104\engine\resources\app\extensions\typescript-language-features\dist\extension.js:53:55046
+	at Emitter.fire (c:\Users\olila\.p2\pool\plugins\com.genuitec.eclipse.code.engine.app.win32.x86_64_3.6.0.202002212104\engine\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:3713:38)
+	at t.Reader.onLengthData (c:\Users\olila\.p2\pool\plugins\com.genuitec.eclipse.code.engine.app.win32.x86_64_3.6.0.202002212104\engine\resources\app\extensions\typescript-language-features\dist\extension.js:53:61948)
+	at Socket.<anonymous> (c:\Users\olila\.p2\pool\plugins\com.genuitec.eclipse.code.engine.app.win32.x86_64_3.6.0.202002212104\engine\resources\app\extensions\typescript-language-features\dist\extension.js:53:61596)
+	at Socket.emit (events.js:200:13)
+	at addChunk (_stream_readable.js:294:12)
+	at readableAddChunk (_stream_readable.js:275:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2021-03-25 18:05:39.187] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2021-03-25 18:05:39.187] [exthost] [error] Error: <semantic> TypeScript Server Error (3.9.2)
+Debug Failure. False expression: Token end is child end
+Error: Debug Failure. False expression: Token end is child end
+    at processChildNode (tsserver.js:124922:34)
+    at tsserver.js:124858:21
+    at visitNode (tsserver.js:18794:24)
+    at Object.forEachChild (tsserver.js:19145:21)
+    at processNode (tsserver.js:124857:20)
+    at formatSpanWorker (tsserver.js:124670:17)
+    at tsserver.js:124634:140
+    at Object.getFormattingScanner (tsserver.js:123270:23)
+    at Object.formatNodeGivenIndentation (tsserver.js:124634:31)
+    at getFormattedTextOfNode (tsserver.js:126840:45)
+    at format (tsserver.js:126810:52)
+    at tsserver.js:126812:78
+    at Array.map (<anonymous>)
+    at computeNewText (tsserver.js:126812:36)
+    at tsserver.js:126778:39
+    at Object.mapDefined (tsserver.js:562:30)
+    at tsserver.js:126776:42
+    at Object.mapDefined (tsserver.js:562:30)
+    at Object.getTextChangesFromChanges (tsserver.js:126762:27)
+    at ChangeTracker.getChanges (tsserver.js:126730:45)
+    at Function.ChangeTracker.with (tsserver.js:126187:32)
+    at Object.getCodeActions (tsserver.js:128852:64)
+    at tsserver.js:127353:77
+    at Object.flatMap (tsserver.js:465:25)
+    at Object.getFixes (tsserver.js:127353:23)
+    at tsserver.js:139165:35
+    at Object.flatMap (tsserver.js:465:25)
+    at Object.getCodeFixesAtPosition (tsserver.js:139163:23)
+    at TSLintPlugin.getCodeFixesAtPosition (C:\Users\olila\.p2\pool\plugins\pack.core.win_3.6.0.202007171759\ms-vscode.vscode-typescript-tslint-plugin-1.2.2\node_modules\typescript-tslint-plugin\out\plugin.js:170:34)
+    at Proxy.intercept.getCodeFixesAtPosition (C:\Users\olila\.p2\pool\plugins\pack.core.win_3.6.0.202007171759\ms-vscode.vscode-typescript-tslint-plugin-1.2.2\node_modules\typescript-tslint-plugin\out\plugin.js:77:25)
+    at IOSession.Session.getCodeFixes (tsserver.js:149262:64)
+    at Session.handlers.ts.createMapFromTemplate._a.<computed> (tsserver.js:147999:61)
+    at tsserver.js:149512:88
+    at IOSession.Session.executeWithRequestId (tsserver.js:149503:28)
+    at IOSession.Session.executeCommand (tsserver.js:149512:33)
+    at IOSession.Session.onMessage (tsserver.js:149536:35)
+    at Interface.<anonymous> (tsserver.js:150852:27)
+    at Interface.emit (events.js:200:13)
+    at Interface._onLine (readline.js:314:10)
+    at Interface._normalWrite (readline.js:459:12)
+    at Socket.ondata (readline.js:170:10)
+    at Socket.emit (events.js:200:13)
+    at addChunk (_stream_readable.js:294:12)
+    at readableAddChunk (_stream_readable.js:275:11)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+	at Function.create (c:\Users\olila\.p2\pool\plugins\com.genuitec.eclipse.code.engine.app.win32.x86_64_3.6.0.202002212104\engine\resources\app\extensions\typescript-language-features\dist\extension.js:53:63734)
+	at h.dispatchResponse (c:\Users\olila\.p2\pool\plugins\com.genuitec.eclipse.code.engine.app.win32.x86_64_3.6.0.202002212104\engine\resources\app\extensions\typescript-language-features\dist\extension.js:53:56672)
+	at h.dispatchMessage (c:\Users\olila\.p2\pool\plugins\com.genuitec.eclipse.code.engine.app.win32.x86_64_3.6.0.202002212104\engine\resources\app\extensions\typescript-language-features\dist\extension.js:53:55570)
+	at c:\Users\olila\.p2\pool\plugins\com.genuitec.eclipse.code.engine.app.win32.x86_64_3.6.0.202002212104\engine\resources\app\extensions\typescript-language-features\dist\extension.js:53:55046
+	at Emitter.fire (c:\Users\olila\.p2\pool\plugins\com.genuitec.eclipse.code.engine.app.win32.x86_64_3.6.0.202002212104\engine\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:3713:38)
+	at t.Reader.onLengthData (c:\Users\olila\.p2\pool\plugins\com.genuitec.eclipse.code.engine.app.win32.x86_64_3.6.0.202002212104\engine\resources\app\extensions\typescript-language-features\dist\extension.js:53:61948)
+	at Socket.<anonymous> (c:\Users\olila\.p2\pool\plugins\com.genuitec.eclipse.code.engine.app.win32.x86_64_3.6.0.202002212104\engine\resources\app\extensions\typescript-language-features\dist\extension.js:53:61596)
+	at Socket.emit (events.js:200:13)
+	at addChunk (_stream_readable.js:294:12)
+	at readableAddChunk (_stream_readable.js:275:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2021-03-25 18:05:39.665] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2021-03-25 18:05:39.665] [exthost] [error] Error: <semantic> TypeScript Server Error (3.9.2)
+Debug Failure. False expression: Token end is child end
+Error: Debug Failure. False expression: Token end is child end
+    at processChildNode (tsserver.js:124922:34)
+    at tsserver.js:124858:21
+    at visitNode (tsserver.js:18794:24)
+    at Object.forEachChild (tsserver.js:19145:21)
+    at processNode (tsserver.js:124857:20)
+    at formatSpanWorker (tsserver.js:124670:17)
+    at tsserver.js:124634:140
+    at Object.getFormattingScanner (tsserver.js:123270:23)
+    at Object.formatNodeGivenIndentation (tsserver.js:124634:31)
+    at getFormattedTextOfNode (tsserver.js:126840:45)
+    at format (tsserver.js:126810:52)
+    at tsserver.js:126812:78
+    at Array.map (<anonymous>)
+    at computeNewText (tsserver.js:126812:36)
+    at tsserver.js:126778:39
+    at Object.mapDefined (tsserver.js:562:30)
+    at tsserver.js:126776:42
+    at Object.mapDefined (tsserver.js:562:30)
+    at Object.getTextChangesFromChanges (tsserver.js:126762:27)
+    at ChangeTracker.getChanges (tsserver.js:126730:45)
+    at Function.ChangeTracker.with (tsserver.js:126187:32)
+    at Object.getCodeActions (tsserver.js:128852:64)
+    at tsserver.js:127353:77
+    at Object.flatMap (tsserver.js:465:25)
+    at Object.getFixes (tsserver.js:127353:23)
+    at tsserver.js:139165:35
+    at Object.flatMap (tsserver.js:465:25)
+    at Object.getCodeFixesAtPosition (tsserver.js:139163:23)
+    at TSLintPlugin.getCodeFixesAtPosition (C:\Users\olila\.p2\pool\plugins\pack.core.win_3.6.0.202007171759\ms-vscode.vscode-typescript-tslint-plugin-1.2.2\node_modules\typescript-tslint-plugin\out\plugin.js:170:34)
+    at Proxy.intercept.getCodeFixesAtPosition (C:\Users\olila\.p2\pool\plugins\pack.core.win_3.6.0.202007171759\ms-vscode.vscode-typescript-tslint-plugin-1.2.2\node_modules\typescript-tslint-plugin\out\plugin.js:77:25)
+    at IOSession.Session.getCodeFixes (tsserver.js:149262:64)
+    at Session.handlers.ts.createMapFromTemplate._a.<computed> (tsserver.js:147999:61)
+    at tsserver.js:149512:88
+    at IOSession.Session.executeWithRequestId (tsserver.js:149503:28)
+    at IOSession.Session.executeCommand (tsserver.js:149512:33)
+    at IOSession.Session.onMessage (tsserver.js:149536:35)
+    at Interface.<anonymous> (tsserver.js:150852:27)
+    at Interface.emit (events.js:200:13)
+    at Interface._onLine (readline.js:314:10)
+    at Interface._normalWrite (readline.js:459:12)
+    at Socket.ondata (readline.js:170:10)
+    at Socket.emit (events.js:200:13)
+    at addChunk (_stream_readable.js:294:12)
+    at readableAddChunk (_stream_readable.js:275:11)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+	at Function.create (c:\Users\olila\.p2\pool\plugins\com.genuitec.eclipse.code.engine.app.win32.x86_64_3.6.0.202002212104\engine\resources\app\extensions\typescript-language-features\dist\extension.js:53:63734)
+	at h.dispatchResponse (c:\Users\olila\.p2\pool\plugins\com.genuitec.eclipse.code.engine.app.win32.x86_64_3.6.0.202002212104\engine\resources\app\extensions\typescript-language-features\dist\extension.js:53:56672)
+	at h.dispatchMessage (c:\Users\olila\.p2\pool\plugins\com.genuitec.eclipse.code.engine.app.win32.x86_64_3.6.0.202002212104\engine\resources\app\extensions\typescript-language-features\dist\extension.js:53:55570)
+	at c:\Users\olila\.p2\pool\plugins\com.genuitec.eclipse.code.engine.app.win32.x86_64_3.6.0.202002212104\engine\resources\app\extensions\typescript-language-features\dist\extension.js:53:55046
+	at Emitter.fire (c:\Users\olila\.p2\pool\plugins\com.genuitec.eclipse.code.engine.app.win32.x86_64_3.6.0.202002212104\engine\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:3713:38)
+	at t.Reader.onLengthData (c:\Users\olila\.p2\pool\plugins\com.genuitec.eclipse.code.engine.app.win32.x86_64_3.6.0.202002212104\engine\resources\app\extensions\typescript-language-features\dist\extension.js:53:61948)
+	at Socket.<anonymous> (c:\Users\olila\.p2\pool\plugins\com.genuitec.eclipse.code.engine.app.win32.x86_64_3.6.0.202002212104\engine\resources\app\extensions\typescript-language-features\dist\extension.js:53:61596)
+	at Socket.emit (events.js:200:13)
+	at addChunk (_stream_readable.js:294:12)
+	at readableAddChunk (_stream_readable.js:275:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2021-03-25 18:05:41.103] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2021-03-25 18:05:41.103] [exthost] [error] Error: <semantic> TypeScript Server Error (3.9.2)
+Debug Failure. False expression: Token end is child end
+Error: Debug Failure. False expression: Token end is child end
+    at processChildNode (tsserver.js:124922:34)
+    at tsserver.js:124858:21
+    at visitNode (tsserver.js:18794:24)
+    at Object.forEachChild (tsserver.js:19145:21)
+    at processNode (tsserver.js:124857:20)
+    at formatSpanWorker (tsserver.js:124670:17)
+    at tsserver.js:124634:140
+    at Object.getFormattingScanner (tsserver.js:123270:23)
+    at Object.formatNodeGivenIndentation (tsserver.js:124634:31)
+    at getFormattedTextOfNode (tsserver.js:126840:45)
+    at format (tsserver.js:126810:52)
+    at tsserver.js:126812:78
+    at Array.map (<anonymous>)
+    at computeNewText (tsserver.js:126812:36)
+    at tsserver.js:126778:39
+    at Object.mapDefined (tsserver.js:562:30)
+    at tsserver.js:126776:42
+    at Object.mapDefined (tsserver.js:562:30)
+    at Object.getTextChangesFromChanges (tsserver.js:126762:27)
+    at ChangeTracker.getChanges (tsserver.js:126730:45)
+    at Function.ChangeTracker.with (tsserver.js:126187:32)
+    at Object.getCodeActions (tsserver.js:128852:64)
+    at tsserver.js:127353:77
+    at Object.flatMap (tsserver.js:465:25)
+    at Object.getFixes (tsserver.js:127353:23)
+    at tsserver.js:139165:35
+    at Object.flatMap (tsserver.js:465:25)
+    at Object.getCodeFixesAtPosition (tsserver.js:139163:23)
+    at TSLintPlugin.getCodeFixesAtPosition (C:\Users\olila\.p2\pool\plugins\pack.core.win_3.6.0.202007171759\ms-vscode.vscode-typescript-tslint-plugin-1.2.2\node_modules\typescript-tslint-plugin\out\plugin.js:170:34)
+    at Proxy.intercept.getCodeFixesAtPosition (C:\Users\olila\.p2\pool\plugins\pack.core.win_3.6.0.202007171759\ms-vscode.vscode-typescript-tslint-plugin-1.2.2\node_modules\typescript-tslint-plugin\out\plugin.js:77:25)
+    at IOSession.Session.getCodeFixes (tsserver.js:149262:64)
+    at Session.handlers.ts.createMapFromTemplate._a.<computed> (tsserver.js:147999:61)
+    at tsserver.js:149512:88
+    at IOSession.Session.executeWithRequestId (tsserver.js:149503:28)
+    at IOSession.Session.executeCommand (tsserver.js:149512:33)
+    at IOSession.Session.onMessage (tsserver.js:149536:35)
+    at Interface.<anonymous> (tsserver.js:150852:27)
+    at Interface.emit (events.js:200:13)
+    at Interface._onLine (readline.js:314:10)
+    at Interface._normalWrite (readline.js:459:12)
+    at Socket.ondata (readline.js:170:10)
+    at Socket.emit (events.js:200:13)
+    at addChunk (_stream_readable.js:294:12)
+    at readableAddChunk (_stream_readable.js:275:11)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+	at Function.create (c:\Users\olila\.p2\pool\plugins\com.genuitec.eclipse.code.engine.app.win32.x86_64_3.6.0.202002212104\engine\resources\app\extensions\typescript-language-features\dist\extension.js:53:63734)
+	at h.dispatchResponse (c:\Users\olila\.p2\pool\plugins\com.genuitec.eclipse.code.engine.app.win32.x86_64_3.6.0.202002212104\engine\resources\app\extensions\typescript-language-features\dist\extension.js:53:56672)
+	at h.dispatchMessage (c:\Users\olila\.p2\pool\plugins\com.genuitec.eclipse.code.engine.app.win32.x86_64_3.6.0.202002212104\engine\resources\app\extensions\typescript-language-features\dist\extension.js:53:55570)
+	at c:\Users\olila\.p2\pool\plugins\com.genuitec.eclipse.code.engine.app.win32.x86_64_3.6.0.202002212104\engine\resources\app\extensions\typescript-language-features\dist\extension.js:53:55046
+	at Emitter.fire (c:\Users\olila\.p2\pool\plugins\com.genuitec.eclipse.code.engine.app.win32.x86_64_3.6.0.202002212104\engine\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:3713:38)
+	at t.Reader.onLengthData (c:\Users\olila\.p2\pool\plugins\com.genuitec.eclipse.code.engine.app.win32.x86_64_3.6.0.202002212104\engine\resources\app\extensions\typescript-language-features\dist\extension.js:53:61948)
+	at Socket.<anonymous> (c:\Users\olila\.p2\pool\plugins\com.genuitec.eclipse.code.engine.app.win32.x86_64_3.6.0.202002212104\engine\resources\app\extensions\typescript-language-features\dist\extension.js:53:61596)
+	at Socket.emit (events.js:200:13)
+	at addChunk (_stream_readable.js:294:12)
+	at readableAddChunk (_stream_readable.js:275:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2021-03-25 18:05:41.567] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2021-03-25 18:05:41.567] [exthost] [error] Error: <semantic> TypeScript Server Error (3.9.2)
+Debug Failure. False expression: Token end is child end
+Error: Debug Failure. False expression: Token end is child end
+    at processChildNode (tsserver.js:124922:34)
+    at tsserver.js:124858:21
+    at visitNode (tsserver.js:18794:24)
+    at Object.forEachChild (tsserver.js:19145:21)
+    at processNode (tsserver.js:124857:20)
+    at formatSpanWorker (tsserver.js:124670:17)
+    at tsserver.js:124634:140
+    at Object.getFormattingScanner (tsserver.js:123270:23)
+    at Object.formatNodeGivenIndentation (tsserver.js:124634:31)
+    at getFormattedTextOfNode (tsserver.js:126840:45)
+    at format (tsserver.js:126810:52)
+    at tsserver.js:126812:78
+    at Array.map (<anonymous>)
+    at computeNewText (tsserver.js:126812:36)
+    at tsserver.js:126778:39
+    at Object.mapDefined (tsserver.js:562:30)
+    at tsserver.js:126776:42
+    at Object.mapDefined (tsserver.js:562:30)
+    at Object.getTextChangesFromChanges (tsserver.js:126762:27)
+    at ChangeTracker.getChanges (tsserver.js:126730:45)
+    at Function.ChangeTracker.with (tsserver.js:126187:32)
+    at Object.getCodeActions (tsserver.js:128852:64)
+    at tsserver.js:127353:77
+    at Object.flatMap (tsserver.js:465:25)
+    at Object.getFixes (tsserver.js:127353:23)
+    at tsserver.js:139165:35
+    at Object.flatMap (tsserver.js:465:25)
+    at Object.getCodeFixesAtPosition (tsserver.js:139163:23)
+    at TSLintPlugin.getCodeFixesAtPosition (C:\Users\olila\.p2\pool\plugins\pack.core.win_3.6.0.202007171759\ms-vscode.vscode-typescript-tslint-plugin-1.2.2\node_modules\typescript-tslint-plugin\out\plugin.js:170:34)
+    at Proxy.intercept.getCodeFixesAtPosition (C:\Users\olila\.p2\pool\plugins\pack.core.win_3.6.0.202007171759\ms-vscode.vscode-typescript-tslint-plugin-1.2.2\node_modules\typescript-tslint-plugin\out\plugin.js:77:25)
+    at IOSession.Session.getCodeFixes (tsserver.js:149262:64)
+    at Session.handlers.ts.createMapFromTemplate._a.<computed> (tsserver.js:147999:61)
+    at tsserver.js:149512:88
+    at IOSession.Session.executeWithRequestId (tsserver.js:149503:28)
+    at IOSession.Session.executeCommand (tsserver.js:149512:33)
+    at IOSession.Session.onMessage (tsserver.js:149536:35)
+    at Interface.<anonymous> (tsserver.js:150852:27)
+    at Interface.emit (events.js:200:13)
+    at Interface._onLine (readline.js:314:10)
+    at Interface._normalWrite (readline.js:459:12)
+    at Socket.ondata (readline.js:170:10)
+    at Socket.emit (events.js:200:13)
+    at addChunk (_stream_readable.js:294:12)
+    at readableAddChunk (_stream_readable.js:275:11)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+	at Function.create (c:\Users\olila\.p2\pool\plugins\com.genuitec.eclipse.code.engine.app.win32.x86_64_3.6.0.202002212104\engine\resources\app\extensions\typescript-language-features\dist\extension.js:53:63734)
+	at h.dispatchResponse (c:\Users\olila\.p2\pool\plugins\com.genuitec.eclipse.code.engine.app.win32.x86_64_3.6.0.202002212104\engine\resources\app\extensions\typescript-language-features\dist\extension.js:53:56672)
+	at h.dispatchMessage (c:\Users\olila\.p2\pool\plugins\com.genuitec.eclipse.code.engine.app.win32.x86_64_3.6.0.202002212104\engine\resources\app\extensions\typescript-language-features\dist\extension.js:53:55570)
+	at c:\Users\olila\.p2\pool\plugins\com.genuitec.eclipse.code.engine.app.win32.x86_64_3.6.0.202002212104\engine\resources\app\extensions\typescript-language-features\dist\extension.js:53:55046
+	at Emitter.fire (c:\Users\olila\.p2\pool\plugins\com.genuitec.eclipse.code.engine.app.win32.x86_64_3.6.0.202002212104\engine\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:3713:38)
+	at t.Reader.onLengthData (c:\Users\olila\.p2\pool\plugins\com.genuitec.eclipse.code.engine.app.win32.x86_64_3.6.0.202002212104\engine\resources\app\extensions\typescript-language-features\dist\extension.js:53:61948)
+	at Socket.<anonymous> (c:\Users\olila\.p2\pool\plugins\com.genuitec.eclipse.code.engine.app.win32.x86_64_3.6.0.202002212104\engine\resources\app\extensions\typescript-language-features\dist\extension.js:53:61596)
+	at Socket.emit (events.js:200:13)
+	at addChunk (_stream_readable.js:294:12)
+	at readableAddChunk (_stream_readable.js:275:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)

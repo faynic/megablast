@@ -1,0 +1,27 @@
+<div style="width: 400px; margin: auto">
+    <div class="submit-form">
+        <div *ngIf="!submitted">
+            <div class="form-group">
+                <label for="omaxName">Omax:</label>
+                <input type="text" class="form-control" id="omaxName" required [(ngModel)]="log.omaxName" name="OmaxName"/>
+            </div>
+
+            <div class="form-group">
+                <label for="changedPart">Changed Part:</label>
+                <input class="form-control" id="changedPart" required [(ngModel)]="log.partChanged" name="changedPart" />
+            </div>
+
+            <div class="form-group">
+                <label for="operator">Operator: </label>
+                <input class="form-control" id="operator" required [(ngModel)]="log.operator" name="operator"/>
+            </div>
+
+            <button (click)="saveLog()" class="btn btn-primary">Submit</button>
+        </div>
+        <div *ngIf="submitted">
+            <h4>Maintenance Submitted</h4>
+            <button class="btn btn-success" (click)="newLog()">Add</button>
+        </div>
+    </div>
+
+</div>

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { OMAXS } from '../omaxs';
+
 
 
 @Component({
@@ -9,7 +9,6 @@ import { OMAXS } from '../omaxs';
 })
 export class FrontFloorViewComponent implements OnInit {
 
-  omaxs = OMAXS;
 
   constructor() { }
 

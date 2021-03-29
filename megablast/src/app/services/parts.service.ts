@@ -3,8 +3,8 @@ import { Observable, of } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
 
 
-import { Part } from './part';
-import { PARTS } from './parts';
+import { Part } from '../models/part';
+import { PARTS } from '../models/parts';
 
 
 

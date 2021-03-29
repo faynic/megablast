@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Omax } from '../omax';
+import { Omax } from '../models/omax';
 
 @Component({
   selector: 'app-maintenance-form-view',

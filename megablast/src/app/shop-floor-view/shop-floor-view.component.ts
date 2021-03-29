@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { OMAXS } from '../omaxs';
+
 
 @Component({
   selector: 'app-shop-floor-view',
@@ -8,7 +8,7 @@ import { OMAXS } from '../omaxs';
 })
 export class ShopFloorViewComponent implements OnInit {
 
-  omaxs = OMAXS;
+
 
   constructor() { }
 

@@ -1,1 +1,28 @@
-<p>maintenance-logs-view works!</p>
+<div class="list row">
+    <div class="col-md-8">
+        
+        <div class="input-group mb-3">
+             <input type="text" class="form-control" id="omaxName" required  [(ngModel)]="omaxName" name="omaxName"/>
+        </div>
+        <div class="input-group-append">
+            <button class="btn btn-outline-secondary" type="button" (click)="searchMachine()">Search</button>
+        </div>
+        
+    </div>
+</div>
+
+<div class="col-md-6">
+    <h4>Logs</h4>
+    <ul class="list-group">
+        <li class="list-group-item" *ngFor="let log of logs$; let i = index" [class.active]="i == currentIndex">
+            <p>Omax: {{log.omaxName}}</p>
+            <p>Part: {{log.partChanged}}</p>
+            <p>Operator: {{log.operator}}</p>
+            <p>Date changed: {{log.createdAt | date: "short" }}</p>
+            <hr class="border-dark">
+        </li>
+    </ul>
+</div>
+
+
+<!-- ; let i = index " [class.active]="i == currentIndex" (click)="setActiveLog(log, i)"-->

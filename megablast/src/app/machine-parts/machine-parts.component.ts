@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Part } from '../part';
-import { PartsService } from '../parts.service';
+import { Part } from '../models/part';
+import { PartsService } from '../services/parts.service';
 import { stringify } from 'querystring';
 
 @Component({

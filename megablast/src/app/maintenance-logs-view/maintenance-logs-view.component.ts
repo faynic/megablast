@@ -15,6 +15,7 @@ export class MaintenanceLogsViewComponent implements OnInit {
   currentLog = null;
   currentIndex = -1;
   omaxName = '';
+  operator = '';
 
   constructor(private logsService: LogsService) { }
 

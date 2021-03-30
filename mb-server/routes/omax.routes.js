@@ -5,7 +5,7 @@ module.exports = app => {
 
 	router.post("/", omaxs.create);
 	router.get("/", omaxs.findAll);
-
+	router.delete("/", omaxs.deleteAll);
 
 	app.use('/api/omaxs', router);
 };

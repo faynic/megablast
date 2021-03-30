@@ -1,13 +1,13 @@
 module.exports = mongoose => {
 	const schema = mongoose.Schema(
 		{
-			omax_id: Number,
-			omax_name: String,
+			omaxId: Number,
+			omaxName: String,
 			operator: String,
-			total_runtime: Number,
-			is_active: Number,
-			head_runtime: Number,
-			tube_runtime: Number,
+			totalRuntime: Number,
+			isActive: Number,
+			headRuntime: Number,
+			tubeRuntime: Number,
 		}
 	);
 

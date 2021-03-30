@@ -5,13 +5,13 @@ const Omax = db.omaxs;
 exports.create = (req, res) => {
 
 	const omax = new Omax({
-		omax_id: req.body.omax_id,
-		omax_name: req.body.omax_name,
+		omaxId: req.body.omaxId,
+		omaxName: req.body.omaxName,
 		operator: req.body.operator,
-		total_runtime: req.body.total_runtime,
-		is_active: req.body.is_active,
-		tube_runtime: req.body.tube_runtime,
-		head_runtime: req.body.head_runtime
+		totalRuntime: req.body.totalRuntime,
+		isActive: req.body.isActive,
+		tubeRuntime: req.body.tubeRuntime,
+		headRuntime: req.body.headRuntime
 	});
 
 	omax
@@ -43,4 +43,19 @@ exports.findAll = (req, res) => {
 			});
 		});
 
+};
+
+exports.deleteAll = (req, res) => {
+	Omax.deleteMany({})
+		.then(data => {
+			res.send({
+				message: "All logs have been removed"
+			});
+		})
+		.catch (err => { 
+			res.status(500).send({
+				message:
+					err.message || "Could not delete machines"
+			})
+		});
 };

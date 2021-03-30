@@ -5,7 +5,7 @@
 	
 	<div *ngFor="let omax of omaxs" class="row my-5">
 		<div class="col-md-3 col-xs-12 text-center">
-			<h2>{{ omax.name }}</h2>
+			<h2>{{ omax.omaxName }}</h2>
 			
 
 			<div class="clearfix">
@@ -51,49 +51,9 @@
 	
 </div>
 
-<div class="container-fluid text-center">
-	<h3>TUBES</h3>
-	<div class="container">
-		<div class="row my-5" *ngFor="let omax of omaxs">
-			<div class="col-2">
-				<div class="spinner-grow"
-				[ngClass]="{'text-success': omax.isActive,
-							'text-danger': !omax.isActive}"></div>
-
-				<h3>{{ omax.name }}</h3>
-			</div>
-			<div class="col-10 px-4">
-				<div class="progress bg-dark" style="height: 50px">
-					<div class="progress-bar bg-success" aria-valuenow="0" aria-valuemin="0" aria-valuemax="150"
-					[style.width.%]="omax.tubeRuntime"
-					[ngClass]="{'bg-warning': omax.tubeRuntime > 80,
-								'bg-danger': omax.tubeRuntime > 100}">
-						{{ omax.tubeRuntime }}
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
 
 	<div class="container">
 		<h3>HEADS</h3>
-
-		<div class="row my-5" *ngFor="let omax of omaxs">
-			<div class="col-2">
-				<h3> {{omax.name }}</h3>
-			</div>
-			<div class="col-10">
-				<div class="progress bg-dark" style="height: 50px">
-					<div class="progress-bar bg-success" aria-valuenow="0" aria-valuemin="0" aria-valuemax="150" 
-					[style.width.%]="omax.headRuntime"
-					[ngClass]="{'bg-warning': omax.headRuntime > 80,
-								'bg-danger': omax.headRuntime > 100}">
-						{{ omax.headRuntime }}
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
 
 
 </div>

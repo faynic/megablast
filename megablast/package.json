@@ -22,6 +22,7 @@
     "git": "^0.1.5",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
+    "xml2js": "^0.4.23",
     "zone.js": "~0.9.1"
   },
   "devDependencies": {

@@ -1,21 +1,51 @@
 const db = require("../models");
+const { response } = require("express");
 const Log = db.logs;
+const Omax = db.omaxs;
 
-exports.create = (req, res) => {
 
-	const log = new Log({
+
+
+
+
+fetch = require('node-fetch');
+
+
+
+
+exports.create = async (req, res) => {
+	
+		omaxName = req.body.omaxName;
+		partChanged = req.body.partChanged;
+		var condition = omaxName ? {omaxName: {$regex: new RegExp(omaxName), $options: "i"} } : {};;
+
+		omax = await Omax.findOne(condition);
+	
+		if (partChanged == 'Tube') {
+			await omax.update({lastTubeChange: omax.totalRuntime});
+		} else if (partChanged == 'Head') {
+			await omax.update({lastHeadChange: omax.totalRuntime});
+		}
+			
+		
+		
+
+		const log = new Log({
 
 		omaxName: req.body.omaxName,
 		partChanged: req.body.partChanged,
 		operator: req.body.operator,
-		currentTotalRuntime: req.body.currentTotalRuntime,
+		currentTotalRuntime: omax.totalRuntime,
 		physicalTotalRuntime: req.body.physicalTotalRuntime
 	});
+
+		
 
 	log
 		.save(log)
 		.then(data => {
-			res.send(data);
+			return res.send(data);	
+			
 		})
 		.catch(err => {
 			res.status(500).send({
@@ -23,6 +53,7 @@ exports.create = (req, res) => {
 					err.message || "Couldnt post to database"
 			});
 		});
+	
 };
 
 

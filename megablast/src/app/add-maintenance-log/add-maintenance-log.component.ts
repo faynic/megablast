@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { LogsService } from '../services/logs.service';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { Observable } from 'rxjs';
+
 
 
 
@@ -14,15 +17,28 @@ export class AddMaintenanceLogComponent implements OnInit {
       partChanged: '',
       operator: '',
       currentTotalRuntime: '',
-      physicalTotalRuntime: ''
+      physicalTotalRuntime: '',
+      reasonForChange: ''
     };
     submitted = false;
 
-  constructor(private logService: LogsService) {}
+    getOmaxName = (omaxName) => {
+      this.log.omaxName = omaxName;
+    }
+
+
+
+
+  constructor(private logService: LogsService) {
+
+
+  }
 
   ngOnInit(): void {
 
+
   }
+
 
 
   saveLog(): void {
@@ -30,8 +46,9 @@ export class AddMaintenanceLogComponent implements OnInit {
       omaxName: this.log.omaxName,
       partChanged: this.log.partChanged,
       operator: this.log.operator,
-      currentRuntime: this.log.currentTotalRuntime,
-      physicalRuntime: this.log.physicalTotalRuntime
+      currentTotalRuntime: this.log.currentTotalRuntime,
+      physicalTotalRuntime: this.log.physicalTotalRuntime,
+      reasonForChange: this.log.reasonForChange
     };
 
     this.logService.create(data)
@@ -53,7 +70,8 @@ export class AddMaintenanceLogComponent implements OnInit {
       partChanged: '',
       operator: '',
       currentTotalRuntime: '',
-      physicalTotalRuntime: ''
+      physicalTotalRuntime: '',
+      reasonForChange: ''
 
     };
   }

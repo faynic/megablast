@@ -8,7 +8,7 @@ import { PARTS } from '../models/parts';
 
 
 
-const baseUrl = 'http://localhost:8080/api/parts';
+const baseUrl = 'http://192.168.50.167:8080/api/parts';
 @Injectable({
   providedIn: 'root'
 })

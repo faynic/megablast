@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
-const baseUrl = 'http://localhost:8080/api/logs';
+const baseUrl = 'http://192.168.50.167:8080/api/logs';
 
 @Injectable({
     providedIn: 'root'
@@ -22,6 +22,7 @@ export class LogsService {
 
     create(data): Observable<any> {
         return this.http.post(baseUrl, data);
+
     }
 
     update(id, data): Observable<any> {

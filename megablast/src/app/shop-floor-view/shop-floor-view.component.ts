@@ -1,6 +1,11 @@
 import { Component, OnInit } from '@angular/core';
-import { Observable, from } from 'rxjs';
+import { Observable, timer } from 'rxjs';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
+
 import { OmaxService } from '../services/omax.service';
+
+
+
 
 @Component({
   selector: 'app-shop-floor-view',
@@ -13,10 +18,25 @@ export class ShopFloorViewComponent implements OnInit {
 
 
 
-  constructor(private omaxService: OmaxService) { }
+
+
+
+
+
+  constructor(private omaxService: OmaxService,  private http: HttpClient) {}
+
+
 
   ngOnInit(): void {
+
     this.listMachines();
+
+    setInterval(() => {
+
+      this.listMachines();
+    }, 5000);
+
+
   }
 
 
@@ -32,3 +52,4 @@ export class ShopFloorViewComponent implements OnInit {
         });
   }
 }
+

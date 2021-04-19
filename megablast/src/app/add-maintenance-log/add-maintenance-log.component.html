@@ -1,14 +1,89 @@
-<div class="container">
+
+<div class="container" style="width: 70%"> 
     <div class="submit-form">
         <div>
-            <div class="form-group">
-                <label for="omaxName">Omax:</label>
-                <input type="text" class="form-control" id="omaxName" required [(ngModel)]="log.omaxName" name="OmaxName"/>
+            
+            <!-- 
+            <div class="form-group" >
+                <label for="omaxName"> Omax Name: </label>
+                <select class="custom-select" id="omaxName" [(ngModel)]="log.omaxName" >
+                    <option value="" >Select an Omax</option>
+                    <option value="OmaxOne">Omax One</option>
+                    <option value="OmaxTwo">Omax Two</option>
+                    <option value="OmaxThree">Omax Three</option>
+                    <option value="OmaxFour">Omax Four</option>
+
+                </select>
+                
             </div>
+        -->
+        <div class="row">
+            <div class="card text-center" style="width: 25%">
+                <img class="card-img-top" src="../../assets/omaxone.jpg" width="150px" height="150px">
+                <div class="card-body">
+                    <div class="card-body">
+                        <button type="button" (click)="getOmaxName('OmaxOne')" class="btn btn-primary">Omax One</button>
+
+                    </div>
+                </div>
+
+            </div>
+
+                        <div class="card text-center" style="width: 25%">
+                <img class="card-img-top" src="../../assets/omaxtwo.png" width="150px" height="150px">
+                <div class="card-body">
+                    <div class="card-body">
+                        <button type="button" (click)="getOmaxName('OmaxTwo')" class="btn btn-primary">Omax Two</button>
+
+                    </div>
+                </div>
+
+            </div>
+
+                        <div class="card text-center" style="width: 25%">
+                <img class="card-img-top" src="../../assets/omaxthree.jpg" width="150px" height="150px">
+                <div class="card-body">
+                    <div class="card-body">
+                        <button type="button" (click)="getOmaxName('OmaxThree')" class="btn btn-primary">Omax Three</button>
+
+                    </div>
+                </div>
+
+            </div>
+
+                        <div class="card text-center" style="width: 25%">
+                <img class="card-img-top" src="../../assets/omaxfour.png" width="150px" height="150px">
+                <div class="card-body">
+                    <div class="card-body">
+                        <button type="button" (click)="getOmaxName('OmaxFour')" class="btn btn-primary">Omax Four</button>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
 
             <div class="form-group">
                 <label for="changedPart">Changed Part:</label>
-                <input class="form-control" id="changedPart" required [(ngModel)]="log.partChanged" name="changedPart" />
+                <select class="custom-select" id="changedPart" [(ngModel)]="log.partChanged">
+                    <option value="">Select a part</option>
+                    <option value="Tube">Tube</option>
+                    <option value="Head">Tete</option>
+
+
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="reasonForChange">Reason for part change:</label>
+                <select class="custom-select" id="reasonForChange" [(ngModel)]="log.reasonForChange">
+                    <option value="Part is worn out">Part worn out</option>
+                    <option value="Time limit on part reached">Runtime of part has reached max</option>
+                    <option value="Broken part">Broken part</option>
+                
+                </select>
+                
             </div>
 
             <div class="form-group">
@@ -16,9 +91,26 @@
                 <input class="form-control" id="operator" required [(ngModel)]="log.operator" name="operator"/>
             </div>
 
+            <div class="form-group">
+                <label for="physicalTotalRuntime">Physical Timer:</label>
+                <input class="form-control" type="number" id="physicalTotalRuntime" required [(ngModel)]="log.physicalTotalRuntime" name="physicalTotalRuntime"/>
+            </div>
+
+            
+
             <button (click)="saveLog()" class="btn btn-primary">Submit</button>
         </div>
        
     </div>
 
 </div>
+
+
+<div>
+
+    
+
+
+</div>
+
+

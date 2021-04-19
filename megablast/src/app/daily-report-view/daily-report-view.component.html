@@ -1,0 +1,39 @@
+
+
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col border-right border-dark" *ngFor="let omax of omaxs">
+                        
+            <table  class="table">
+                
+                <thead class="thead">
+                    <tr><h3>{{omax.omaxName}}</h3></tr>
+                    <tr class="align-middle">
+                        <th scope="col">
+                            Date du rapport:
+                        </th>
+                        <th scope="col">
+                            Temp de la machine:
+                        </th>
+                    
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let report of omax.reports">
+                        <td>{{report.createdAt | date: "short"}}</td>
+                        <td>{{report.reportValue | toHours}}</td>
+                    
+                    </tr>
+
+
+                </tbody>
+
+
+            </table>
+
+        </div>
+    </div>
+</div>

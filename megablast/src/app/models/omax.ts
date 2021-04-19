@@ -1,9 +1,10 @@
 export interface Omax {
- id: number;
- name: string;
- operator: string;
- currentRuntime: number;
- isActive: boolean;
- tubeRuntime: number;
- headRuntime: number;
+    omaxId: number;
+    OmaxName: string;
+    omaxIpAddress: string;
+    totalRuntime: number;
+    isActive: string;
+    lastTubeChange: number;
+    lastHeadChange: number;
+
 }

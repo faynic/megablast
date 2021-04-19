@@ -1,17 +1,22 @@
 const db = require("../models");
-const Omax = db.omaxs;
+const { on } = require("events");
 
+const Omax = db.omaxs;
+const Reports = db.reports;
 
 exports.create = (req, res) => {
+
+
 
 	const omax = new Omax({
 		omaxId: req.body.omaxId,
 		omaxName: req.body.omaxName,
-		operator: req.body.operator,
+		omaxIpAddress: req.body.omaxIpAddress,
 		totalRuntime: req.body.totalRuntime,
 		isActive: req.body.isActive,
-		tubeRuntime: req.body.tubeRuntime,
-		headRuntime: req.body.headRuntime
+		lastTubeChange: req.body.lastTubeChange,
+		lastHeadChange: req.body.lastHeadChange
+		
 	});
 
 	omax
@@ -28,11 +33,12 @@ exports.create = (req, res) => {
 };
 
 
+
 exports.findAll = (req, res) => {
 	const name = req.query.omaxName;
 	var condition = name ? {name: {$regex: new RegExp(name), $options: "i" } } : {};
 
-	Omax.find(condition)
+	Omax.find(condition).populate('reports', Reports)
 		.then(data => {
 			res.send(data);
 		})
@@ -44,6 +50,56 @@ exports.findAll = (req, res) => {
 		});
 
 };
+
+exports.update = (req, res) => {
+	if(!req.body) {
+		return res.status(500).send({
+			message: "A log must be filled before adding it to the list" 
+		});
+	}
+
+
+	const id = req.params.id;
+
+	Omax.findByIdAndUpdate(id, req.body, { useFindAndModify: false})
+		.then(data => {
+			if(!data) {
+				res.status(404).send({
+					message: `Cannot update Log: ${id}`
+				});
+			} else res.send({message: "Update successful"});
+		})
+		.catch(err => {
+			res.status(500).send({
+				message: "There was an error updating the machine"
+			});
+		});
+	};
+
+
+exports.delete = (req, res) => {
+	const id = req.params.id;
+
+	Omax.findByIdAndRemove(id)
+		.then(data => {
+			if(!data){
+				res.status(404).send({
+					message: "Couldnt not remove this omax"
+				})
+			} else {
+				res.send({
+					message: "Successful deletion"
+				});
+			}
+		})
+		.catch(err => {
+			res.status(500).send({
+				message: "Could not delete this omax"
+			});
+		});
+};
+
+	
 
 exports.deleteAll = (req, res) => {
 	Omax.deleteMany({})
@@ -58,4 +114,5 @@ exports.deleteAll = (req, res) => {
 					err.message || "Could not delete machines"
 			})
 		});
-};
+	};
+

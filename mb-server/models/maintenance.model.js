@@ -4,8 +4,8 @@ module.exports = mongoose => {
 			omaxName: String,
 			partChanged: String,
 			operator: String,
-			currentTotalRuntime: Number,
-			physicalTotalRuntime: Number
+			currentTotalRuntime: Object,
+			physicalTotalRuntime: Number,
 		},
 		{ 
 			timestamps: true 
@@ -15,6 +15,7 @@ module.exports = mongoose => {
 	schema.method("toJSON", function() {
 		const {v, _id, ...object} = this.toObject();
 		object.id = _id;
+		
 		return object;
 	});
 

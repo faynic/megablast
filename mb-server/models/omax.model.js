@@ -1,13 +1,21 @@
+const { Schema } = require("mongoose");
+
 module.exports = mongoose => {
 	const schema = mongoose.Schema(
 		{
 			omaxId: Number,
-			omaxName: String,
-			operator: String,
+			omaxName: {type: String, unique: true},
+			omaxIpAddress: String,
+			
 			totalRuntime: Number,
-			isActive: Number,
-			headRuntime: Number,
-			tubeRuntime: Number,
+
+			isActive: String,
+
+			lastTubeChange: Number,
+			lastHeadChange: Number,
+			reports: [{ type: Schema.Types.ObjectId, ref: 'report'}]
+
+
 		}
 	);
 

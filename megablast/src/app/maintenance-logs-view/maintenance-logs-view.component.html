@@ -27,9 +27,10 @@
                 <input  type="text" id="operator" [(ngModel)]="operator" name="operator" placeholder="Operator"/>
                 <button class="btn btn-primary mx-2" >Search</button>
             </th>
-            <th scope="col">Part changed:</th>
-            <th scope="col">Api Timer</th>
-            <th scope="col">Phys. Time</th>
+            <th scope="col">Partie changer:</th>
+            <th scope="col">Duree:</th>
+            <th scope="col">Temp sur Web</th>
+            <th scope="col">Temp physique</th>
             <th scope="col">Date:</th>
         </tr>
     </thead>
@@ -38,6 +39,7 @@
             <td>{{log.omaxName}}</td>
             <td>{{log.operator}}</td>
             <td>{{log.partChanged}}</td>
+            <td>{{log.partTotalRuntime | toHours}}</td>
             <td>{{log.currentTotalRuntime | toHours}}</td>
             <td>{{log.physicalTotalRuntime}}</td>
             <td>{{log.createdAt | date: "short"}}</td>

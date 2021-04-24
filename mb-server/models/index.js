@@ -12,6 +12,8 @@ db.parts = require("./part.model.js")(mongoose);
 db.omaxs = require("./omax.model.js")(mongoose);
 db.logs = require("./maintenance.model.js")(mongoose);
 db.reports = require("./report.model")(mongoose);
+db.shifts = require("./shift.model.js")(mongoose);
+
 
 
 module.exports = db;

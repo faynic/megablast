@@ -3,6 +3,7 @@ const { on } = require("events");
 
 const Omax = db.omaxs;
 const Reports = db.reports;
+const Shifts = db.shifts;
 
 exports.create = (req, res) => {
 
@@ -38,7 +39,9 @@ exports.findAll = (req, res) => {
 	const name = req.query.omaxName;
 	var condition = name ? {name: {$regex: new RegExp(name), $options: "i" } } : {};
 
-	Omax.find(condition).populate('reports', Reports)
+	Omax.find(condition)
+		.populate('reports', Reports)
+		.populate('shifts', Shifts)
 		.then(data => {
 			res.send(data);
 		})

@@ -2,13 +2,13 @@ const express = require("express");
 const cors = require('cors');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
+const cron = require('node-cron');
 
-
-
+const omaxapi = require('../mb-server/omaxapi')
 const app = express();
 
 var corsOptions = {
-origin: "*-"
+origin: "*"
 };
 
 app.use(cors(corsOptions));
@@ -21,11 +21,11 @@ app.use(bodyParser.urlencoded({extended: true }));
 
 
 
-
 require("../mb-server/routes/part.routes")(app);
 require("../mb-server/routes/omax.routes")(app);
 require("../mb-server/routes/maintenance.routes")(app);
 require("../mb-server/routes/admin.routes")(app);
+require("../mb-server/routes/shifts.routes")(app);
 
 
 

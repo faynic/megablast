@@ -13,7 +13,8 @@ module.exports = mongoose => {
 
 			lastTubeChange: Number,
 			lastHeadChange: Number,
-			reports: [{ type: Schema.Types.ObjectId, ref: 'report'}]
+			reports: [{ type: Schema.Types.ObjectId, ref: 'report'}],
+			shifts: [{ type: Schema.Types.ObjectId, ref: 'shift'}]
 
 
 		}

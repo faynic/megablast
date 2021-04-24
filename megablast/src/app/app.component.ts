@@ -12,6 +12,6 @@ export class AppComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {
-    this.title = 'Hello World';
+    this.title = 'Megablast';
   }
 }

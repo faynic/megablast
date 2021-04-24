@@ -4,9 +4,9 @@ const { on } = require("events");
 const Omax = db.omaxs;
 
 omaxTimers = setInterval(() => {
-	updateTimer('OmaxOne', '192.168.50.155').catch(e => console.log(e));
-	updateTimer('OmaxTwo', '192.168.50.244').catch(e => console.log(e));
-	updateTimer('OmaxThree', '192.168.50.127').catch(e => console.log(e));
+	updateTimer('Omax 1', '192.168.50.155').catch(e => console.log(e));
+	updateTimer('Omax 2', '192.168.50.244').catch(e => console.log(e));
+	updateTimer('Omax 3', '192.168.50.127').catch(e => console.log(e));
 	//updateTimer('OmaxFour', '192.168.50.202').catch(e => console.log(e));
 	//console.log('tick');
 }, 1000 )

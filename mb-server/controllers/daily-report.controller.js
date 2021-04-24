@@ -4,29 +4,23 @@ const db = require("../models");
 const Report = db.reports;
 const Omax = db.omaxs;
 
-const omaxapi = require("../omaxapi");
+const cron = require('node-cron');
+
+
 
 
 // DAILY REPORT LOOP
 
-var now = new Date();
-
-var msTillTime = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 12,0,0,0) - now;
-if(msTillTime < 0) {
-	msTillTime += 8640000;
+function generateDailyReports() {
+	createDailyTimerReport("Omax 1");
+	createDailyTimerReport("Omax 2");
+	createDailyTimerReport("Omax 3");
+	console.log("New DRs generated" + Date()); 
 }
 
-
-makeDailyReports = async () => {
-	await createDailyTimerReport("Omax 1");
-	await createDailyTimerReport("Omax 2");
-	await createDailyTimerReport("Omax 3");
-	console.log("New DRs generated");
-}
-
-setTimeout(makeDailyReports, msTillTime)
-
-
+cron.schedule('0 4 * * *', function() {
+	generateDailyReports();
+})
 
 createDailyTimerReport = async (omaxName) => {
 

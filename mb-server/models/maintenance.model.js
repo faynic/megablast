@@ -6,6 +6,7 @@ module.exports = mongoose => {
 			operator: String,
 			currentTotalRuntime: Object,
 			physicalTotalRuntime: Number,
+			partTotalRuntime: Number,
 		},
 		{ 
 			timestamps: true 

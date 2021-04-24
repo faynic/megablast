@@ -17,13 +17,17 @@ exports.create = async (req, res) => {
 	
 		omaxName = req.body.omaxName;
 		partChanged = req.body.partChanged;
+		partRuntime = 0;
 		var condition = omaxName ? {omaxName: {$regex: new RegExp(omaxName), $options: "i"} } : {};;
 
 		omax = await Omax.findOne(condition);
 	
 		if (partChanged == 'Tube') {
+			partRuntime = omax.totalRuntime - omax.lastTubeChange;
 			await omax.update({lastTubeChange: omax.totalRuntime});
-		} else if (partChanged == 'Head') {
+			
+		} else if (partChanged == 'Tete') {
+			partRuntime = omax.totalRuntime = omax.lastHeadChange;
 			await omax.update({lastHeadChange: omax.totalRuntime});
 		}
 			
@@ -36,7 +40,8 @@ exports.create = async (req, res) => {
 		partChanged: req.body.partChanged,
 		operator: req.body.operator,
 		currentTotalRuntime: omax.totalRuntime,
-		physicalTotalRuntime: req.body.physicalTotalRuntime
+		physicalTotalRuntime: req.body.physicalTotalRuntime,
+		partTotalRuntime: partRuntime
 	});
 
 		

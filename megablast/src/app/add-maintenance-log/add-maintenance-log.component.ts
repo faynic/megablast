@@ -61,6 +61,8 @@ export class AddMaintenanceLogComponent implements OnInit {
         error => {
           console.log(error);
         });
+
+    this.newLog();
   }
 
   newLog(): void {

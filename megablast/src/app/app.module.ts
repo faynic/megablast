@@ -20,6 +20,7 @@ import { MachinePartsComponent } from './machine-parts/machine-parts.component';
 import { ToHoursPipe } from './to-hours.pipe';
 import { ToPercentPipe } from './to-percent.pipe';
 import { DailyReportViewComponent } from './daily-report-view/daily-report-view.component';
+import { ShiftReportsComponent } from './shift-reports/shift-reports.component';
 
 
 const routes: Routes = [
@@ -28,7 +29,8 @@ const routes: Routes = [
     {path: 'parts', component: MachinePartsComponent},
     {path: 'maintenanceForm', component: AddMaintenanceLogComponent},
     {path: 'logs', component: MaintenanceLogsViewComponent},
-    {path: 'reports', component: DailyReportViewComponent}
+    {path: 'reports', component: DailyReportViewComponent},
+    {path: 'shiftlogs', component: ShiftReportsComponent}
 ];
 
 
@@ -45,6 +47,7 @@ const routes: Routes = [
     ToHoursPipe,
     ToPercentPipe,
     DailyReportViewComponent,
+    ShiftReportsComponent,
 
   ],
   imports: [
